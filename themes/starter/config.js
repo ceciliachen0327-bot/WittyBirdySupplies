@@ -189,13 +189,13 @@ const CONFIG = {
   STARTER_FAQ_2_ANSWER:
     'If buyers encounter any problems with the products they purchased, such as defects, damages, or dissatisfaction with the quality, they can easily reach out to us. Our team will promptly respond and offer solutions like product replacements or refunds based on the specific situation.',
 
-  STARTER_FAQ_3_QUESTION: 'How about your payment terms?',
+  STARTER_FAQ_3_QUESTION: 'Which markets do you currently serve?',
   STARTER_FAQ_3_ANSWER:
-    'Regarding payment, we usually adopt the model of deposit plus balance. The balance is typically required to be settled before shipment. However, for your first order, we can make an exception and offer the COD option so that you can pay the balance upon receiving the goods.',
-
-  STARTER_FAQ_4_QUESTION: 'Which markets do you currently serve?',
-  STARTER_FAQ_4_ANSWER:
     'Our products are widely favored and are exported to all parts of the world.',
+
+  STARTER_FAQ_4_QUESTION: 'How about your payment terms?',
+  STARTER_FAQ_4_ANSWER:
+    'Regarding payment, we usually adopt the model of deposit plus balance. The balance is typically required to be settled before shipment. However, for your first order, we can make an exception and offer the COD option so that you can pay the balance upon receiving the goods.',
 
   // 团队成员区块
   STARTER_TEAM_ENABLE: false, // 团队成员区块开关
@@ -231,23 +231,23 @@ const CONFIG = {
 
   // 博客文章区块
   STARTER_BLOG_ENABLE: true, // 首页博文区块开关
-  STARTER_BLOG_TITLE: '我们的博客',
+  STARTER_BLOG_TITLE: 'Blog',
   STARTER_BLOG_COUNT: 3, // 首页博文区块默认展示前3篇文章
-  STARTER_BLOG_TEXT_1: '最近的新闻',
+  STARTER_BLOG_TEXT_1: 'Latest Updates',
   STARTER_BLOG_TEXT_2:
-    '这里会发布一些关于NotionNext的最新动态，包括新的动向、新的未来计划，以及新功能的特性',
+    'We will often share our experiences and insights on parrot breeding.',
 
   // 联系模块
   STARTER_CONTACT_ENABLE: true, // 联系模块开关
-  STARTER_CONTACT_TITLE: '联系我们',
-  STARTER_CONTACT_TEXT: '告诉我们您遇到的问题',
+  STARTER_CONTACT_TITLE: 'Contact Us',
+  STARTER_CONTACT_TEXT: 'Submit your inquiry',
   STARTER_CONTACT_LOCATION_TITLE: '我们的位置',
   STARTER_CONTACT_LOCATION_TEXT: '中国，福建',
   STARTER_CONTACT_EMAIL_TITLE: '我们如何帮助您？',
   STARTER_CONTACT_EMAIL_TEXT: 'mail@tangly1024.com',
 
   // 嵌入外部表单
-  STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/yfctc7', // 基于NoteForm创建，将留言数据存在Notion中
+  STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/customer-inquiry-form-yhnoic', // 基于NoteForm创建，将留言数据存在Notion中
   //   自定义留言表单，以下几个配置暂时废弃
   //   STARTER_CONTACT_MSG_TITLE: '向我们留言',
   //   STARTER_CONTACT_MSG_NAME: '姓名',
@@ -297,9 +297,9 @@ const CONFIG = {
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
     {
-      TITLE: 'About Us',
+      TITLE: 'Quick Links',
       LINK_GROUP: [
-        { TITLE: '官方主页', URL: '/#home' },
+        { TITLE: 'Home', URL: '/#home' },
         { TITLE: '操作文档', URL: 'https://docs.tangly1024.com/about' },
         {
           TITLE: '帮助支持',
