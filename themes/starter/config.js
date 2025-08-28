@@ -13,7 +13,7 @@ const CONFIG = {
   STARTER_HERO_TITLE_1: 'Crafted with Care for Feathered Friends', // 英雄区文字
   STARTER_HERO_TITLE_2: 'Safe & Health Gear for Birds', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-  STARTER_HERO_BUTTON_1_TEXT: 'Stay Tuned', // 英雄区按钮
+  STARTER_HERO_BUTTON_1_TEXT: '', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
     'https://www.instagram.com/wittybirdysupplies?igsh=YTd6ejh1ajdybjJl', // 英雄区按钮
   STARTER_HERO_BUTTON_2_TEXT: 'Get in Touch', // 英雄区按钮
@@ -258,7 +258,7 @@ const CONFIG = {
   //   STARTER_CONTACT_MSG_THANKS: '感谢您的留言',
 
   // 合作伙伴的图标
-  STARTER_BRANDS_ENABLE: true, // 合作伙伴开关
+  STARTER_BRANDS_ENABLE: false, // 合作伙伴开关
   STARTER_BRANDS: [
     {
       IMAGE: '/images/starter/brands/graygrids.svg',
@@ -297,7 +297,7 @@ const CONFIG = {
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
     {
-      TITLE: '关于我们',
+      TITLE: 'About Us',
       LINK_GROUP: [
         { TITLE: '官方主页', URL: '/#home' },
         { TITLE: '操作文档', URL: 'https://docs.tangly1024.com/about' },
