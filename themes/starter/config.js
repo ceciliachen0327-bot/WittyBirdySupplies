@@ -322,7 +322,7 @@ const CONFIG = {
           TITLE: 'Instagram',
           URL: 'https://www.instagram.com/wittybirdysupplies?igsh=YTd6ejh1ajdybjJl'
         },
-        { TITLE: 'WhatsApp-Sales', URL: 'https://wa.me/+8615336758785' }
+        { TITLE: 'WhatsApp-Sales', URL: 'https://wa.me/+8615336758785' },
         { TITLE: 'WhatsApp-Support', URL: 'https://wa.me/+8619975252304' }
       ]
     },
@@ -369,7 +369,7 @@ const CONFIG = {
     'Browse through our products, pick out the styles you like and inquire about the prices with us.',
   STARTER_CTA_BUTTON: true, // 是否显示按钮
   STARTER_CTA_BUTTON_URL:
-    '/#products',
+    '/products',
   STARTER_CTA_BUTTON_TEXT: 'View All Products',
 
   STARTER_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
