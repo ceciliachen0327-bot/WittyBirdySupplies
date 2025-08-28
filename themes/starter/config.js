@@ -179,7 +179,7 @@ const CONFIG = {
   STARTER_FAQ_ENABLE: true, // 常见问题模块开关
   STARTER_FAQ_TITLE: 'FAQs',
   STARTER_FAQ_TEXT_1: 'Find answers here for the typical questions.',
-  STARTER_FAQ_TEXT_2: 'Still have doubts? Submit the form or contact us directly.',
+  STARTER_FAQ_TEXT_2: 'Still have doubts? Submit inquiry form or contact us directly.',
 
   STARTER_FAQ_1_QUESTION: "What's your MOQ?",
   STARTER_FAQ_1_ANSWER:
@@ -299,70 +299,71 @@ const CONFIG = {
     {
       TITLE: 'Quick Links',
       LINK_GROUP: [
-        { TITLE: 'Home', URL: '/#home' },
-        { TITLE: '操作文档', URL: 'https://docs.tangly1024.com/about' },
+        { TITLE: 'Home', URL: '/home' },
+        { TITLE: 'About Us', URL: '/about' },
         {
-          TITLE: 'Products',
-          URL: '/#products'
+          TITLE: 'All Products',
+          URL: '/products'
         },
         {
-          TITLE: '合作申请',
-          URL: 'https://docs.tangly1024.com/article/my-service'
+          TITLE: 'Contact',
+          URL: '/contact'
         }
       ]
     },
     {
-      TITLE: '功能特性',
+      TITLE: 'Stay Tuned',
       LINK_GROUP: [
         {
-          TITLE: '部署指南',
-          URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next'
+          TITLE: 'Facebook',
+          URL: 'https://www.facebook.com/share/16xfpBZ4PN/'
         },
         {
-          TITLE: '升级指南',
-          URL: 'https://docs.tangly1024.com/article/how-to-update-notionnext'
+          TITLE: 'Instagram',
+          URL: 'https://www.instagram.com/wittybirdysupplies?igsh=YTd6ejh1ajdybjJl'
         },
-        { TITLE: '最新版本', URL: 'https://docs.tangly1024.com/article/latest' }
+        { TITLE: 'WhatsApp-Sales', URL: 'https://wa.me/+8615336758785' }
+        { TITLE: 'WhatsApp-Support', URL: 'https://wa.me/+8619975252304' }
       ]
     },
     {
-      TITLE: 'Notion写作',
+      TITLE: '',
       LINK_GROUP: [
         {
-          TITLE: 'Notion开始写作',
+          TITLE: '',
           URL: 'https://docs.tangly1024.com/article/start-to-write'
         },
         {
-          TITLE: '快捷键提升效率',
+          TITLE: '',
           URL: 'https://docs.tangly1024.com/article/notion-short-key'
         },
         {
-          TITLE: '中国大陆使用Notion',
+          TITLE: '',
           URL: 'https://docs.tangly1024.com/article/notion-faster'
         }
       ]
     }
   ],
 
-  STARTER_FOOTER_BLOG_LATEST_TITLE: '最新文章',
+  STARTER_FOOTER_BLOG_LATEST_TITLE: 'Latest Updates',
 
-  STARTER_FOOTER_PRIVACY_POLICY_TEXT: '隐私政策',
+  STARTER_FOOTER_PRIVACY_POLICY_TEXT: 'Pricacy Policy',
   STARTER_FOOTER_PRIVACY_POLICY_URL: '/privacy-policy',
 
-  STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT: '法律声明',
+  STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT: 'Legacy Notice',
   STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_URL: '/legacy-notice',
 
-  STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT: '服务协议',
+  STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT: 'Terms of Use',
   STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/terms-of-use',
 
   // 404页面的提示语
-  STARTER_404_TITLE: '我们似乎找不到您要找的页面。',
-  STARTER_404_TEXT: '抱歉！您要查找的页面不存在。可能已经移动或删除。',
-  STARTER_404_BACK: '回到主页',
+  STARTER_404_TITLE: "It appears that the page you're searching for cannot be found.",
+  STARTER_404_TEXT: "Sorry! The page you are looking for doesn't exist. It may have been moved or deleted.",
+  STARTER_404_BACK: 'Head back to the homepage.',
 
   // 页面底部的行动呼吁模块
   STARTER_CTA_ENABLE: true,
-  STARTER_CTA_TITLE: 'Interested?',
+  STARTER_CTA_TITLE: 'Interested? ',
   STARTER_CTA_TITLE_2: 'Explore our full collection!',
   STARTER_CTA_DESCRIPTION:
     'Browse through our products, pick out the styles you like and inquire about the prices with us.',
