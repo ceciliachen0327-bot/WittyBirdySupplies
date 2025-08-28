@@ -10,8 +10,8 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: 'Crafted with Care for Feathered Friends', // 英雄区文字
-  STARTER_HERO_TITLE_2: 'Safe & Health Gear for Birds', // 英雄区文字
+  STARTER_HERO_TITLE_1: 'Derived from Nature', // 英雄区文字
+  STARTER_HERO_TITLE_2: 'Safe & Healthy Gear for Feathered Friends', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
@@ -177,13 +177,13 @@ const CONFIG = {
 
   //   FAQ 常见问题模块
   STARTER_FAQ_ENABLE: true, // 常见问题模块开关
-  STARTER_FAQ_TITLE: '常见问题解答',
-  STARTER_FAQ_TEXT_1: '有任何问题吗？请看这里',
-  STARTER_FAQ_TEXT_2: '我们收集了常见的用户疑问',
+  STARTER_FAQ_TITLE: 'FAQs',
+  STARTER_FAQ_TEXT_1: 'Find answers here for the typical questions you might encounter while browsing our site.',
+  STARTER_FAQ_TEXT_2: 'Still have doubts? Submit the form or contact us directly.',
 
-  STARTER_FAQ_1_QUESTION: 'NotionNext有帮助文档吗？',
+  STARTER_FAQ_1_QUESTION: "What's your MOQ?",
   STARTER_FAQ_1_ANSWER:
-    'NotionNext提供了<a href="https://docs.tangly1024.com/about" className="underline">帮助文档</a>，操作<a href="https://www.bilibili.com/video/BV1fM4y1L7Qi/" className="underline">演示视频</a>，以及<a href="https://docs.tangly1024.com/article/chat-community" className="underline">交流社群</a>来协助您完成网站的搭建部署',
+    "We don't set a fixed MOQ. Just inquire and we'll be glad to work out a reasonable solution.",
 
   STARTER_FAQ_2_QUESTION: '部署后要如何编写文章？',
   STARTER_FAQ_2_ANSWER:
