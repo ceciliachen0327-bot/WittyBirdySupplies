@@ -26,10 +26,10 @@ const CONFIG = {
 
   // 顶部右侧导航暗流
   STARTER_NAV_BUTTON_1_TEXT: '',
-  STARTER_NAV_BUTTON_1_URL: '/sign-in',
+  STARTER_NAV_BUTTON_1_URL: '',
 
   STARTER_NAV_BUTTON_2_TEXT: '',
-  STARTER_NAV_BUTTON_2_URL: '/sign-up',
+  STARTER_NAV_BUTTON_2_URL: '',
 
   // 特性区块
   STARTER_FEATURE_ENABLE: false, // 特性区块开关
@@ -296,6 +296,23 @@ const CONFIG = {
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
+        {
+      TITLE: '',
+      LINK_GROUP: [
+        {
+          TITLE: '',
+          URL: ''
+        },
+        {
+          TITLE: '',
+          URL: ''
+        },
+        {
+          TITLE: '',
+          URL: ''
+        }
+      ]
+    },
     {
       TITLE: 'Quick Links',
       LINK_GROUP: [
@@ -324,23 +341,6 @@ const CONFIG = {
         },
         { TITLE: 'WhatsApp-Sales', URL: 'https://wa.me/+8615336758785' },
         { TITLE: 'WhatsApp-Support', URL: 'https://wa.me/+8619975252304' }
-      ]
-    },
-    {
-      TITLE: '',
-      LINK_GROUP: [
-        {
-          TITLE: '',
-          URL: 'https://docs.tangly1024.com/article/start-to-write'
-        },
-        {
-          TITLE: '',
-          URL: 'https://docs.tangly1024.com/article/notion-short-key'
-        },
-        {
-          TITLE: '',
-          URL: 'https://docs.tangly1024.com/article/notion-faster'
-        }
       ]
     }
   ],
