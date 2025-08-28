@@ -316,7 +316,7 @@ const CONFIG = {
     {
       TITLE: 'Quick Links',
       LINK_GROUP: [
-        { TITLE: 'Home', URL: '/home' },
+        { TITLE: 'Home', URL: '/#home' },
         { TITLE: 'About Us', URL: '/about' },
         {
           TITLE: 'All Products',
