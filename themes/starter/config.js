@@ -19,7 +19,7 @@ const CONFIG = {
   STARTER_HERO_BUTTON_1_ICON: '/images/starter/ins.png', // 英雄区按钮1的图标，不需要则留空
   STARTER_HERO_BUTTON_2_TEXT: 'Get in Touch', // 英雄区按钮
   STARTER_HERO_BUTTON_2_URL: 'https://wa.me/+8615336758785', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_ICON: '/images/starter/wa.png', // 英雄区按钮2的图标，不需要则留空
+  STARTER_HERO_BUTTON_2_ICON: '/images/starter/whatsapp.gif', // 英雄区按钮2的图标，不需要则留空
 
   // 英雄区配图，如需隐藏，改为空值即可 ''
   STARTER_HERO_PREVIEW_IMAGE: '/images/starter/hero/hero-image.webp', // 产品预览图 ，默认读取public目录下图片
