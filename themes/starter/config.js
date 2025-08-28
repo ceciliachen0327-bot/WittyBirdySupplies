@@ -178,27 +178,27 @@ const CONFIG = {
   //   FAQ 常见问题模块
   STARTER_FAQ_ENABLE: true, // 常见问题模块开关
   STARTER_FAQ_TITLE: 'FAQs',
-  STARTER_FAQ_TEXT_1: 'Find answers here for the typical questions you might encounter while browsing our site.',
+  STARTER_FAQ_TEXT_1: 'Find answers here for the typical questions.',
   STARTER_FAQ_TEXT_2: 'Still have doubts? Submit the form or contact us directly.',
 
   STARTER_FAQ_1_QUESTION: "What's your MOQ?",
   STARTER_FAQ_1_ANSWER:
-    "We don't set a fixed MOQ. Just inquire and we'll be glad to work out a reasonable solution.",
+    "We don't set a fixed MOQ. Just inquire and our team will be glad to work out a reasonable solution.",
 
-  STARTER_FAQ_2_QUESTION: '部署后要如何编写文章？',
+  STARTER_FAQ_2_QUESTION: 'How to safeguard the rights and interests of buyers?',
   STARTER_FAQ_2_ANSWER:
-    '您可以在Notion中之间添加或修改类型为Post的页面，内容将被实时同步在站点中，详情参考<a className="underline" href="https://docs.tangly1024.com/article/start-to-write">《帮助文档》</a>',
+    'If buyers encounter any problems with the products they purchased, such as defects, damages, or dissatisfaction with the quality, they can easily reach out to us. Our team will promptly respond and offer solutions like product replacements or refunds based on the specific situation.',
 
-  STARTER_FAQ_3_QUESTION: '站点部署失败，更新失败？',
+  STARTER_FAQ_3_QUESTION: 'How about your payment terms?',
   STARTER_FAQ_3_ANSWER:
-    '通常是配置修改错误导致，请检查配置或者重试操作步骤，或者通过Vercel后台的Deployments中找到错误日志，并向网友求助',
+    'Regarding payment, we usually adopt the model of deposit plus balance. The balance is typically required to be settled before shipment. However, for your first order, we can make an exception and offer the COD option so that you can pay the balance upon receiving the goods.',
 
-  STARTER_FAQ_4_QUESTION: '文章没有实时同步？',
+  STARTER_FAQ_4_QUESTION: 'Which markets do you currently serve?',
   STARTER_FAQ_4_ANSWER:
-    '先检查Notion_Page_ID是否正确配置，其次由于博客的每个页面都有独立缓存，刷新网页后即可解决',
+    'Our products are widely favored and are exported to all parts of the world.',
 
   // 团队成员区块
-  STARTER_TEAM_ENABLE: true, // 团队成员区块开关
+  STARTER_TEAM_ENABLE: false, // 团队成员区块开关
   STARTER_TEAM_TITLE: '团队成员',
   STARTER_TEAM_TEXT_1: '我们的开发者团队',
   STARTER_TEAM_TEXT_2:
