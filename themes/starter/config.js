@@ -63,13 +63,13 @@ const CONFIG = {
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
   STARTER_ABOUT_TITLE: 'Supply goods to various sellers',
   STARTER_ABOUT_TEXT:
-    "Witty Birdy's vision to make our toys accessible to little birds across the globe. Whether you're a wholesaler, a shop owner or a start-up entrepreneur, we're always open to discussing cooperation opportunities with you.",
+    "Witty Birdy's vision to make our toys accessible to birds across the globe. Whether you're a wholesaler, a shop owner or a start-up entrepreneur, we're always open to discussing cooperation opportunities with you.",
   STARTER_ABOUT_BUTTON_TEXT: "Get Custom Solution",
   STARTER_ABOUT_BUTTON_URL: 'https://wa.me/+8619975252304',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/store.jpg',
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/goods.jpg',
   STARTER_ABOUT_TIPS_1: '6000+',
-  STARTER_ABOUT_TIPS_2: 'stores',
+  STARTER_ABOUT_TIPS_2: 'Stores across the globe',
   STARTER_ABOUT_TIPS_3: 'are selling our products',
 
   // 首页价格区块
