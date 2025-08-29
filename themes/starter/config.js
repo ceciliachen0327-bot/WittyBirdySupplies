@@ -18,7 +18,7 @@ const CONFIG = {
     'https://www.instagram.com/wittybirdysupplies?igsh=YTd6ejh1ajdybjJl', // 英雄区按钮
   STARTER_HERO_BUTTON_2_TEXT: 'Get in Touch', // 英雄区按钮
   STARTER_HERO_BUTTON_2_URL: 'https://wa.me/+8615336758785', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_ICON: 'images/starter/icons8-whatsapp.svg', // 英雄区按钮2的图标，不需要则留空
+  STARTER_HERO_BUTTON_2_ICON: '', // 英雄区按钮2的图标，不需要则留空
 
   // 英雄区配图，如需隐藏，改为空值即可 ''
   STARTER_HERO_PREVIEW_IMAGE: '/images/starter/hero/hero-image.png', // 产品预览图 ，默认读取public目录下图片
@@ -64,7 +64,7 @@ const CONFIG = {
   STARTER_ABOUT_TITLE: 'Supply goods to various sellers',
   STARTER_ABOUT_TEXT:
     "Witty Birdy's vision to make our toys accessible to birds across the globe. Whether you're a wholesaler, a shop owner or a start-up entrepreneur, we're always open to discussing cooperation opportunities with you.",
-  STARTER_ABOUT_BUTTON_TEXT: "Get Custom Solution",
+  STARTER_ABOUT_BUTTON_TEXT: "Get Your Custom Solution",
   STARTER_ABOUT_BUTTON_URL: 'https://wa.me/+8619975252304',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/store.jpg',
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/goods.jpg',
