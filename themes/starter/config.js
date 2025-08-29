@@ -240,10 +240,10 @@ const CONFIG = {
   // 联系模块
   STARTER_CONTACT_ENABLE: true, // 联系模块开关
   STARTER_CONTACT_TITLE: 'Contact Us',
-  STARTER_CONTACT_TEXT: 'Need support?',
+  STARTER_CONTACT_TEXT: 'How can we help you？',
   STARTER_CONTACT_LOCATION_TITLE: 'Our Location',
   STARTER_CONTACT_LOCATION_TEXT: 'Zhejiang, China',
-  STARTER_CONTACT_EMAIL_TITLE: 'How can we help you？',
+  STARTER_CONTACT_EMAIL_TITLE: 'E-mail',
   STARTER_CONTACT_EMAIL_TEXT: 'info@wittybirdysupplies.site',
 
   // 嵌入外部表单
