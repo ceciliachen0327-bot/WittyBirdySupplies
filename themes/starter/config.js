@@ -68,7 +68,7 @@ const CONFIG = {
   STARTER_ABOUT_BUTTON_URL: 'https://wa.me/+8619975252304',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/store.jpg',
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/goods.jpg',
-  STARTER_ABOUT_TIPS_1: '6000+',
+  STARTER_ABOUT_TIPS_1: '1000+',
   STARTER_ABOUT_TIPS_2: 'Stores across the globe',
   STARTER_ABOUT_TIPS_3: 'are selling our products',
 
@@ -316,7 +316,7 @@ const CONFIG = {
     {
       TITLE: 'Quick Links',
       LINK_GROUP: [
-        { TITLE: 'Home', URL: 'https://www.wittybirdysupplies.site/' },
+        { TITLE: 'Home', URL: '/' },
         {
           TITLE: 'All Products',
           URL: '/products'
@@ -370,8 +370,8 @@ const CONFIG = {
     '/products',
   STARTER_CTA_BUTTON_TEXT: 'View All Products',
 
-  STARTER_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
-  STARTER_POST_REDIRECT_URL: 'https://www.wittybirdysupplies.site', // 重定向域名
+  STARTER_POST_REDIRECT_ENABLE: false, // 默認開啟重定向
+  STARTER_POST_REDIRECT_URL: 'https://www.wittybirdysupplies.com', // 重定向域名
   STARTER_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_STARTER_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
 export default CONFIG
