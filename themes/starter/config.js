@@ -244,7 +244,7 @@ const CONFIG = {
   STARTER_CONTACT_LOCATION_TITLE: 'Our Location',
   STARTER_CONTACT_LOCATION_TEXT: 'Zhejiang, China',
   STARTER_CONTACT_EMAIL_TITLE: 'E-mail',
-  STARTER_CONTACT_EMAIL_TEXT: 'info@wittybirdysupplies.site',
+  STARTER_CONTACT_EMAIL_TEXT: 'wittybirdysupplies@gmail.com',
 
   // 嵌入外部表单
   STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/customer-inquiry-form-yhnoic', // 基于NoteForm创建，将留言数据存在Notion中
@@ -316,12 +316,12 @@ const CONFIG = {
     {
       TITLE: 'Quick Links',
       LINK_GROUP: [
-        { TITLE: 'Home', URL: '/#home' },
-        { TITLE: 'About Us', URL: '/about' },
+        { TITLE: 'Home', URL: 'https://www.wittybirdysupplies.site/' },
         {
           TITLE: 'All Products',
           URL: '/products'
         },
+        { TITLE: 'About Us', URL: '/about' },
         {
           TITLE: 'Contact',
           URL: '/contact'
@@ -338,9 +338,7 @@ const CONFIG = {
         {
           TITLE: 'Instagram',
           URL: 'https://www.instagram.com/wittybirdysupplies?igsh=YTd6ejh1ajdybjJl'
-        },
-        { TITLE: 'WhatsApp-Sales', URL: 'https://wa.me/+8615336758785' },
-        { TITLE: 'WhatsApp-Support', URL: 'https://wa.me/+8619975252304' }
+        }
       ]
     }
   ],
@@ -373,7 +371,7 @@ const CONFIG = {
   STARTER_CTA_BUTTON_TEXT: 'View All Products',
 
   STARTER_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
-  STARTER_POST_REDIRECT_URL: 'https://www.wittybirdysupplies.com', // 重定向域名
+  STARTER_POST_REDIRECT_URL: 'https://www.wittybirdysupplies.site', // 重定向域名
   STARTER_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_STARTER_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
 export default CONFIG
