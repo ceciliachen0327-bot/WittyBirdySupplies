@@ -360,7 +360,7 @@ const CONFIG = {
   STARTER_404_BACK: 'Head back to the homepage.',
 
   // 页面底部的行动呼吁模块
-  STARTER_CTA_ENABLE: true,
+  STARTER_CTA_ENABLE: false,
   STARTER_CTA_TITLE: 'Interested? ',
   STARTER_CTA_TITLE_2: 'Explore our full collection!',
   STARTER_CTA_DESCRIPTION:
