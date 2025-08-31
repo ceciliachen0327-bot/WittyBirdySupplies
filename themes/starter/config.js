@@ -178,8 +178,8 @@ const CONFIG = {
   //   FAQ 常见问题模块
   STARTER_FAQ_ENABLE: true, // 常见问题模块开关
   STARTER_FAQ_TITLE: 'FAQs',
-  STARTER_FAQ_TEXT_1: 'Find answers here for\nthe typical questions',
-  STARTER_FAQ_TEXT_2: 'Still have doubts? Submit inquiry form or contact us directly.',
+  STARTER_FAQ_TEXT_1: 'Find answers here for the typical questions',
+  STARTER_FAQ_TEXT_2: 'Still have doubts? Submit an inquiry form or contact us directly.',
 
   STARTER_FAQ_1_QUESTION: "What's your MOQ?",
   STARTER_FAQ_1_ANSWER:
