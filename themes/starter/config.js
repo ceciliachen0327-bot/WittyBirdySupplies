@@ -13,9 +13,9 @@ const CONFIG = {
   STARTER_HERO_TITLE_1: 'Derived from Nature', // 英雄区文字
   STARTER_HERO_TITLE_2: 'Safe & Healthy Gear for Feathered Friends', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-  STARTER_HERO_BUTTON_1_TEXT: '', // 英雄区按钮
+  STARTER_HERO_BUTTON_1_TEXT: 'View All Products', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
-    'https://www.instagram.com/wittybirdysupplies?igsh=YTd6ejh1ajdybjJl', // 英雄区按钮
+    '/products', // 英雄区按钮
   STARTER_HERO_BUTTON_2_TEXT: 'Get in Touch', // 英雄区按钮
   STARTER_HERO_BUTTON_2_URL: 'https://wa.me/+8615336758785', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: '', // 英雄区按钮2的图标，不需要则留空
@@ -32,43 +32,43 @@ const CONFIG = {
   STARTER_NAV_BUTTON_2_URL: '',
 
   // 特性区块
-  STARTER_FEATURE_ENABLE: false, // 特性区块开关
-  STARTER_FEATURE_TITLE: '', // 特性
+  STARTER_FEATURE_ENABLE: true, // 特性区块开关
+  STARTER_FEATURE_TITLE: 'What sets us apart', // 特性
   STARTER_FEATURE_TEXT_1: 'Features', // 特性
   STARTER_FEATURE_TEXT_2:
     'Our vision is to provide safe & healthy gear for birds all around the world.', // 特性
 
-  STARTER_FEATURE_1_TITLE_1: '免费且开源', // 特性1
-  STARTER_FEATURE_1_TEXT_1: '项目源码在Github上完全开放共享，遵循MIT协议', // 特性1
-  STARTER_FEATURE_1_BUTTON_TEXT: '了解更多', // 特性1
-  STARTER_FEATURE_1_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 特性1
+  STARTER_FEATURE_1_TITLE_1: 'One-Stop Service', // 特性1
+  STARTER_FEATURE_1_TEXT_1: ' We offer a comprehensive one-stop service covering product selection, production, packaging, and logistics. We ensure a seamless process from start to finish, making it convenient for our clients.', // 特性1
+  STARTER_FEATURE_1_BUTTON_TEXT: '', // 特性1
+  STARTER_FEATURE_1_BUTTON_URL: '', // 特性1
 
-  STARTER_FEATURE_2_TITLE_1: '多种主题定制', // 特性2
-  STARTER_FEATURE_2_TEXT_1: '数十种主题,适用于不同场景，总有一款适合你', // 特性2
-  STARTER_FEATURE_2_BUTTON_TEXT: '了解更多', // 特性2
+  STARTER_FEATURE_2_TITLE_1: 'Flexible Supply Solutions', // 特性2
+  STARTER_FEATURE_2_TEXT_1: "There's no need for full-container orders. Our low MOQ is designed to support small and medium-sized sellers, providing them with flexible options to meet their business needs.", // 特性2
+  STARTER_FEATURE_2_BUTTON_TEXT: '', // 特性2
   STARTER_FEATURE_2_BUTTON_URL:
-    'https://docs.tangly1024.com/article/notion-next-themes', // 特性2
+    '', // 特性2
 
-  STARTER_FEATURE_3_TITLE_1: '优秀的性能', // 特性3
-  STARTER_FEATURE_3_TEXT_1: '基于NextJS开发，更快的响应速度，更好的SEO', // 特性3
-  STARTER_FEATURE_3_BUTTON_TEXT: '了解更多', // 特性3
+  STARTER_FEATURE_3_TITLE_1: 'Unique Products', // 特性3
+  STARTER_FEATURE_3_TEXT_1: 'We focus on using safe and natural materials and creating exquisite designs. Our products stand out in the market with their distinctiveness and quality.', // 特性3
+  STARTER_FEATURE_3_BUTTON_TEXT: '', // 特性3
   STARTER_FEATURE_3_BUTTON_URL: 'https://docs.tangly1024.com/article/next-js', // 特性3
 
-  STARTER_FEATURE_4_TITLE_1: '便捷的写作体验', // 特性4
-  STARTER_FEATURE_4_TEXT_1: '只需在Notion笔记中编修，自动同步到网站', // 特性4
-  STARTER_FEATURE_4_BUTTON_TEXT: '了解更多', // 特性4
+  STARTER_FEATURE_4_TITLE_1: 'Brand Customization', // 特性4
+  STARTER_FEATURE_4_TEXT_1: 'We support customizing personalized products and brand labels. Let your brand shine with our customized offerings to make your products truly unique in the market.', // 特性4
+  STARTER_FEATURE_4_BUTTON_TEXT: '', // 特性4
   STARTER_FEATURE_4_BUTTON_URL: 'https://docs.tangly1024.com/about', // 特性4
 
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
-  STARTER_ABOUT_TITLE: 'Supply goods to various sellers',
+  STARTER_ABOUT_TITLE: 'Supplying parrot gear for 10 years',
   STARTER_ABOUT_TEXT:
-    "Witty Birdy's vision to make our toys accessible to birds across the globe. Whether you're a wholesaler, a shop owner or a start-up entrepreneur, we're always open to discussing cooperation opportunities with you.",
+    "We have developed and produced thousands of parrot toys and served thousands of customers. We have rich experience in product selection, production, packaging and logistics.",
   STARTER_ABOUT_BUTTON_TEXT: "Get Your Custom Solution",
   STARTER_ABOUT_BUTTON_URL: 'https://wa.me/+8619975252304',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/store.jpg',
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/goods.jpg',
-  STARTER_ABOUT_TIPS_1: '1000+',
+  STARTER_ABOUT_TIPS_1: '999+',
   STARTER_ABOUT_TIPS_2: 'Stores across the globe',
   STARTER_ABOUT_TIPS_3: 'are selling our products',
 
