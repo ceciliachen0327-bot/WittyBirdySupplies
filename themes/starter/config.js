@@ -292,7 +292,7 @@ const CONFIG = {
     }
   ],
 
-  STARTER_FOOTER_SLOGAN: 'Help build your own bird gear business.',
+  STARTER_FOOTER_SLOGAN: 'Help grow your bird supplies business.',
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
