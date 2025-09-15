@@ -292,7 +292,7 @@ const CONFIG = {
     }
   ],
 
-  STARTER_FOOTER_SLOGAN: 'Help grow your bird supplies business.',
+  STARTER_FOOTER_SLOGAN: 'Spoil every feathered friend.',
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
